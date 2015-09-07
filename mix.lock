@@ -1,3 +1,4 @@
 %{"cowboy": {:hex, :cowboy, "1.0.0"},
   "cowlib": {:hex, :cowlib, "1.0.1"},
+  "earmark": {:git, "git://github.com/pragdave/earmark.git", "07914f570d7a1a57bc3f3bce0689c33af8f7e0ed", []},
   "ranch": {:hex, :ranch, "1.0.0"}}

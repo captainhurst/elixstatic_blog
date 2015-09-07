@@ -19,7 +19,7 @@ defmodule ElixstaticBlog do
 
   def run do
     routes = [
-      {"/:something", ElixstaticBlog.Handler, []},
+      {"/:filename", ElixstaticBlog.Handler, []},
       {"/static/[...]", :cowboy_static, {:priv_dir, :elixstatic_blog, "static_files"}}
     ]
 
